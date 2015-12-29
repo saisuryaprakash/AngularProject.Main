@@ -1,0 +1,22 @@
+C:\Users\LAPINFOSYS\Documents\Visual Studio 2013\AngularjsProject\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.dll.config
+C:\Users\LAPINFOSYS\Documents\Visual Studio 2013\AngularjsProject\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.dll
+C:\Users\LAPINFOSYS\Documents\Visual Studio 2013\AngularjsProject\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.pdb
+C:\Users\LAPINFOSYS\Documents\Visual Studio 2013\AngularjsProject\AngularProject.Main\Angular.Presentation.Web\obj\Debug\Angular.Presentation.Web.dll
+C:\Users\LAPINFOSYS\Documents\Visual Studio 2013\AngularjsProject\AngularProject.Main\Angular.Presentation.Web\obj\Debug\Angular.Presentation.Web.pdb
+C:\Users\LAPINFOSYS\Documents\Visual Studio 2013\AngularjsProject\AngularProject.Main\Angular.Presentation.Web\obj\Debug\Angular.Presentation.Web.csprojResolveAssemblyReference.cache
+D:\surya\My Project\24-12-15\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.dll.config
+D:\surya\My Project\24-12-15\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.dll
+D:\surya\My Project\24-12-15\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.pdb
+D:\surya\My Project\24-12-15\AngularProject.Main\Angular.Presentation.Web\obj\Debug\Angular.Presentation.Web.dll
+D:\surya\My Project\24-12-15\AngularProject.Main\Angular.Presentation.Web\obj\Debug\Angular.Presentation.Web.pdb
+D:\surya\My Project\24-12-15\AngularProject.Main\Angular.Presentation.Web\obj\Debug\Angular.Presentation.Web.csprojResolveAssemblyReference.cache
+D:\My Project\AngularProject\25-12-15\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.dll.config
+D:\My Project\AngularProject\25-12-15\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.dll
+D:\My Project\AngularProject\25-12-15\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.pdb
+D:\My Project\AngularProject\25-12-15\AngularProject.Main\Angular.Presentation.Web\obj\Debug\Angular.Presentation.Web.dll
+D:\My Project\AngularProject\25-12-15\AngularProject.Main\Angular.Presentation.Web\obj\Debug\Angular.Presentation.Web.pdb
+D:\My Project\AngularProject\25-12-15 part 2\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.dll.config
+D:\My Project\AngularProject\25-12-15 part 2\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.dll
+D:\My Project\AngularProject\25-12-15 part 2\AngularProject.Main\Angular.Presentation.Web\bin\Angular.Presentation.Web.pdb
+D:\My Project\AngularProject\25-12-15 part 2\AngularProject.Main\Angular.Presentation.Web\obj\Debug\Angular.Presentation.Web.dll
+D:\My Project\AngularProject\25-12-15 part 2\AngularProject.Main\Angular.Presentation.Web\obj\Debug\Angular.Presentation.Web.pdb

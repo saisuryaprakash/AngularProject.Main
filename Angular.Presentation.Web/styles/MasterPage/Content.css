@@ -1,0 +1,106 @@
+﻿#fixedheader {
+
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+    border: 1px thick black;
+	padding:3px;
+    list-style-type:none;
+    background:#000000;
+}
+
+
+.site-navigation {
+	
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+    margin-top:88px;
+    position:fixed;
+    background:#000000;
+    width:100%;
+    left:0px;
+    
+    
+}
+
+.site-navigation ul {
+  
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+    
+}
+
+.site-navigation li {
+
+	color: #ffffff;
+	display: block;
+	float: left;
+	margin: 0 2px 0 0;
+	padding: 12px;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+    
+}
+  
+.site-navigation li a {
+  color: #ffffff;
+  text-decoration: none;
+    
+}
+
+.site-navigation li a:hover {
+
+	cursor: pointer;
+    color: #4cff00;
+}
+
+.site-navigation ul li ul {
+	
+	visibility: hidden;
+	float: left;
+  min-width: 100px;
+	position: absolute;
+  transition: visibility 0.1s ease-in;
+  margin-top:12px;
+	left: 0;
+	z-index: 999;
+    background:#000000;
+}
+
+.site-navigation ul li:hover > ul,
+.site-navigation ul li ul:hover {
+   visibility: visible;
+  
+}
+
+.site-navigation ul li ul li {
+	clear: both;
+	padding: 5px 0 5px 18px;
+  width: 100%;
+ 
+}
+
+.site-navigation ul li ul li:hover {
+	background:#808080;
+}
+
+
+#fixedfooter {
+
+	position: relative;
+	bottom:0px;
+	left:0px;
+    margin-top: 705px;
+	width:100%;
+	color:#CCC;
+	background:#000000;
+	padding:8px;
+    list-style-type: none;
+   text-align:center;
+
+}

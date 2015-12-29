@@ -1,0 +1,129 @@
+﻿
+<style>
+
+ 
+    .myTable tr td:first-child {
+        color: #ffffff;     
+    }
+
+   .myTable table tr td:last-child{
+      color:#000000;
+      font: bold;
+
+  }
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+
+
+
+</style>
+
+<div class="myTable">
+
+    <h1 style="text-align:center; color:#ffffff">{{title}}</h1>
+
+    <table class="test" align="center" style="margin:0px auto;border-spacing:10px; border-collapse:separate"> 
+        <tr>
+            <td>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>Employee Id: </td>
+            <td></td>
+            <td><input type="text" ng-model="empId" /></td>
+           
+        </tr>
+
+        <tr>
+            <td>Employee Name:</td>
+            <td></td>
+            <td><input type="text" ng-model="empName" /></td>
+        </tr>
+
+        <tr>
+            <td>Gender: </td>
+            <td></td>
+            <td><input type="text" ng-model="empGender" /></td>
+        </tr>
+
+        <tr>
+            <td>DOB: </td>
+            <td></td>
+            <td><input type="date" ng-model="empDOB" /></td>
+        </tr>
+
+        <tr>
+            <td>Date of Joining: </td>
+            <td></td>
+            <td><input type="date" ng-model="empDOJ" /></td>
+        </tr>
+
+        <tr>
+            <td>Designation: </td>
+            <td></td>
+            <td><input type="text" ng-model="empDesignation" /></td>
+        </tr>
+
+        <tr>
+            <td>Contact No:</td>
+            <td></td>
+            <td><input type="text" ng-model="empContact" /></td>
+        </tr>
+
+        <tr>
+            <td>Address:</td>
+            <td></td>
+            <td><input type="text" ng-model="empAddress" /></td>
+        </tr>
+
+        <tr>
+            <td>Profile Photo: </td>
+            <td></td>
+            <td><input type="file" /></td>
+        </tr>
+   
+        <tr>
+            <td align="center" style="color:#000000"><input type="button" class="btn" value="Save" ng-click="save()"/></td>
+        </tr>
+
+    </table>
+</div>
+
+<div>
+
+    <table class="commonTable">
+        <tr>
+            <th> Employee ID</th>
+            <th> Employee Name</th>
+            <th> Gender </th>
+            <th> DOB </th>
+            <th> Date of Joining </th>
+            <th> Designation</th>
+            <th> Contact No</th>
+            <th> Address</th>
+        </tr>
+
+
+        <tr ng-repeat=" e in empAdd">
+
+            <td> {{e.empId}}  </td>
+            <td> {{e.empName}}</td>
+            <td>{{e.empGender}}</td>
+            <td> {{e.empDOB}} </td>
+            <td>{{e.empDOJ}}</td>
+            <td>{{e.empDesignation}}</td>
+            <td>{{e.empContact}}</td>
+            <td>{{e.empAddress}}</td>
+
+        </tr>
+        
+    </table>
+
+
+</div>
