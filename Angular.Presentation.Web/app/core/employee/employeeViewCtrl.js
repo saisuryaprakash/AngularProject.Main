@@ -6,7 +6,7 @@ define(['angular-app'], function (app) {
         $scope.title = "Employee View Page";
 
         $scope.editEmployee = [];
-        editEmployee = $rootScope.empList;
+        editEmployee = $rootScope.employeeList;
 
         $scope.admin = $rootScope.admin;
         //Based on array values and get the data using employeeId
@@ -53,7 +53,7 @@ define(['angular-app'], function (app) {
             //$scope.empAddress
 
 
-            $rootScope.empList = [{
+            $rootScope.employeeList = [{
 
             empId : $scope.empId,
             empName : $scope.empName,
