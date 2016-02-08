@@ -7,11 +7,11 @@ define(['angular-app'], function(app){
         debugger;
         $scope.title = "Employee Add Page";
 
-        $scope.empAdd = [];
+        $scope.employeeAdd = [];
 
         $scope.save = function () {
 
-            $scope.empAdd.push({
+            $scope.employeeAdd.push({
                 empId: $scope.empId,
                 empName: $scope.empName,
                 empGender: $scope.empGender,
