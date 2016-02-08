@@ -86,7 +86,7 @@ define(['angular-app'], function (app) {
 
         ];
 
-        $scope.name = $rootScope.empList.length;
+        
 
        
                 debugger;
