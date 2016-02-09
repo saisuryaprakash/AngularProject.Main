@@ -68,6 +68,7 @@
     <Content Include="app\core\mail\mailSendCtrl.js" />
     <Content Include="app\core\message\messageLog.html" />
     <Content Include="app\core\message\messageSend.html" />
+    <Content Include="app\core\message\messageSendCtrl.js" />
     <Content Include="app\shared\layouts\Footer\Footer.html" />
     <Content Include="app\shared\layouts\header\header.html" />
     <Content Include="images\body.jpg" />
@@ -919,6 +920,7 @@
     <Content Include="styles\Site\datePicker.css" />
     <Content Include="styles\Site\site.css" />
     <Content Include="styles\table\table.css" />
+    <Content Include="testing.html" />
     <Content Include="Web.config" />
     <Content Include="lib\Bootstrap\Scripts\jquery-1.9.1.min.map" />
   </ItemGroup>
