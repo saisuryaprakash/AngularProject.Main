@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular.Presentation.Web", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{43660858-21D5-44E5-BE3C-294B05EA1515}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular.Data.Application", "Angular.Data.Application\Angular.Data.Application.csproj", "{91428FEE-0656-42DA-BB5A-1027BD89EFB8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,16 +19,11 @@ Global
 		{D1B60862-68D0-428C-BBB5-5C2E1C5129C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1B60862-68D0-428C-BBB5-5C2E1C5129C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1B60862-68D0-428C-BBB5-5C2E1C5129C8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91428FEE-0656-42DA-BB5A-1027BD89EFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91428FEE-0656-42DA-BB5A-1027BD89EFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91428FEE-0656-42DA-BB5A-1027BD89EFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91428FEE-0656-42DA-BB5A-1027BD89EFB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1B60862-68D0-428C-BBB5-5C2E1C5129C8} = {4FF27182-EA93-4879-9077-5271325395C2}
-		{91428FEE-0656-42DA-BB5A-1027BD89EFB8} = {43660858-21D5-44E5-BE3C-294B05EA1515}
 	EndGlobalSection
 EndGlobal
