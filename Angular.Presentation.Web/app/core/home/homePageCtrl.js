@@ -2,7 +2,7 @@
 
 define(['angular-app'], function (app) {
 
-    app.controller('homePageCtrl', function ($scope,$window) {
+    app.controller('homePageCtrl', function ($scope,$rootScope,$window) {
 
       
         $scope.logOut = function () {
