@@ -5,7 +5,7 @@ define(['angular-app'], function(app){
     app.controller('employeeAddCtrl', function ($scope) {
 
         debugger;
-        $scope.title = "Employee Add Page";
+        $scope.title = "Employee Pfgbo Page";
         
         $scope.employeeAdd = [];
 
