@@ -11,6 +11,7 @@ define(['angular-app'], function(app){
         
         $scope.employeeAdd = [];
         $scope.testdata = "pfgbo";
+        $scope.newtes = "pfgbo surya";
         $scope.save = function () {
 
             $scope.employeeAdd.push({
