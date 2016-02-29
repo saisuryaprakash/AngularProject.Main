@@ -6,13 +6,11 @@ define(['angular-app'], function(app){
 
         debugger;
         $scope.title = "Employee surya Add Page";
-        $scope.show = "karthi page";
-       
-        
+        $scope.show = "surya page";
         $scope.employeeAdd = [];
-       
+
         $scope.save = function () {
-            $scope.new = "karthi";
+
             $scope.employeeAdd.push({
                 empId: $scope.empId,
                 empName: $scope.empName,
@@ -27,7 +25,7 @@ define(['angular-app'], function(app){
 
         };
 
-        console.log($scope.employeeAdd);
+
     });
 
 });
