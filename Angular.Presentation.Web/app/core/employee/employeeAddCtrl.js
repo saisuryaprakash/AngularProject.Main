@@ -6,7 +6,7 @@ define(['angular-app'], function(app){
 
         debugger;
         $scope.title = "Employee surya Add Page";
-        $scope.show = "surya page";
+        $scope.show = "karthi page";
         $scope.employeeAdd = [];
 
         $scope.save = function () {
