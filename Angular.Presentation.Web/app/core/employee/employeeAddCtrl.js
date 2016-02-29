@@ -8,7 +8,7 @@ define(['angular-app'], function(app){
         $scope.title = "Employee Add Page";
         
         $scope.employeeAdd = [];
-
+        $scope.test = "new test dev";
         $scope.save = function () {
 
             $scope.employeeAdd.push({
