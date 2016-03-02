@@ -8,6 +8,8 @@ define(['angular-app'], function (app) {
         $scope.logOut = function () {
 
             $window.location.href = "#login";
+            var a = "PRIYA";
+
         }
 
 

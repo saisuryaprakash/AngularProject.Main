@@ -5,17 +5,19 @@ define(['angular-app'], function(app){
     app.controller('employeeAddCtrl', function ($scope) {
 
         debugger;
-        $scope.title = "Employee surya Add Page";
+        $scope.title = "Employee priya Add Page";
         $scope.show = "karthi page";
         $scope.title = "Employee Pfgbo Page";
         
         $scope.show = "surya page";
         $scope.employeeAdd = [];
         $scope.testdata = "pfgbo";
-        $scope.newtes = "pfgbo surya";
+        $scope.newtes = "pfgbo PRIYA";
 
 
-       
+        $scope.test = function () {
+            var a = "test";
+        }
        
         $scope.save = function () {
             $scope.new = "karthi";
