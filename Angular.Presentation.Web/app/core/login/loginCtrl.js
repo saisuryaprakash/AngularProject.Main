@@ -2,7 +2,8 @@
 define(['angular-app'], function (app) {
     app.controller('loginCtrl', function ($scope,$window,$rootScope) {
                 
-     
+        $scope.test = function () {
+        }
         
         $rootScope.empList = [{
 
@@ -89,9 +90,8 @@ define(['angular-app'], function (app) {
         
 
        
-                debugger;
                 $scope.homepage = function () {
-                    debugger;
+     
                    
 
                     if ($scope.username == "admin" && $scope.password == "admin") {
@@ -103,15 +103,15 @@ define(['angular-app'], function (app) {
 
                     }
                     else if ($scope.username == null && $scope.password == null) {
-                        debugger;
+                       
                         alert("enter username and password");
                     }
                     else {
-                        debugger;
+                 
                         for (i = 0; i <= $rootScope.empList.length; i++) {
 
                             if ($scope.username == $rootScope.empList[i].empName && $scope.password == $rootScope.empList[i].empGender) {
-                                debugger;
+                               
                                 alert($scope.username);
                                 $rootScope.role = $scope.username;
 
@@ -123,7 +123,7 @@ define(['angular-app'], function (app) {
                 };
 
     });
-    debugger;
+
 });
 
 

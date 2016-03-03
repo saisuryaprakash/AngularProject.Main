@@ -1,23 +1,13 @@
 ﻿debugger;
 
-define(['angular-app'], function(app){
+define(['angular-app'], function (app) {
 
     app.controller('employeeAddCtrl', function ($scope) {
 
         debugger;
         $scope.title = "Employee Add Page";
-       
-        
-       
         $scope.employeeAdd = [];
-       
-
-
-       
         $scope.save = function () {
-           
-
-           
             $scope.employeeAdd.push({
                 empId: $scope.empId,
                 empName: $scope.empName,
@@ -31,7 +21,9 @@ define(['angular-app'], function(app){
             });
 
         };
-
+        $scope.test = function () {
+            $scope.test = "Employee Add Page";
+        }
 
     });
 
